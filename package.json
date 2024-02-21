@@ -1,15 +1,15 @@
 {
-  "name": "soft-ui-dashboard-react",
-  "version": "4.0.1",
-  "author": "Creative Tim",
+  "name": "my-bitly-dashboard",
+  "version": "1.0.0",
+  "author": "Jason Simms & Creative Tim",
   "license": "SEE LICENSE IN <https://www.creative-tim.com/license>",
-  "description": "ReactJS version of Soft UI Dashboard by Creative Tim",
+  "description": "My Bitly API Dashboard / Front end",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/soft-ui-dashboard-react/issues"
+    "url": "https://github.com/JasonSimms/my-bitly-dashboard/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/soft-ui-dashboard-react.git"
+    "url": "git+https://github.com/JasonSimms/my-bitly-dashboard.git"
   },
   "dependencies": {
     "@emotion/cache": "11.11.0",
