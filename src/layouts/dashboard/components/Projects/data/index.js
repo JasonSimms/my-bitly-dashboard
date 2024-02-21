@@ -19,6 +19,12 @@ import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
 import team4 from "assets/images/team-4.jpg";
 
+// TODO import data for the table here...
+//import variable from context myData
+// const { myData } = useContext(SoftUI);
+
+
+
 export default function data() {
   const avatars = (members) =>
     members.map(([image, name]) => (

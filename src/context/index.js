@@ -56,6 +56,9 @@ function reducer(state, action) {
     case "LAYOUT": {
       return { ...state, layout: action.value };
     }
+    case "DATA": {
+      return { ...state, data: action.value };
+    }
     default: {
       throw new Error(`Unhandled action type: ${action.type}`);
     }
@@ -73,6 +76,7 @@ function SoftUIControllerProvider({ children }) {
     openConfigurator: false,
     direction: "ltr",
     layout: "dashboard",
+    data: "Hello from the context"
   };
 
   const [controller, dispatch] = useReducer(reducer, initialState);
@@ -107,6 +111,8 @@ const setFixedNavbar = (dispatch, value) => dispatch({ type: "FIXED_NAVBAR", val
 const setOpenConfigurator = (dispatch, value) => dispatch({ type: "OPEN_CONFIGURATOR", value });
 const setDirection = (dispatch, value) => dispatch({ type: "DIRECTION", value });
 const setLayout = (dispatch, value) => dispatch({ type: "LAYOUT", value });
+const setData = (dispatch, value) => dispatch({ type: "DATA", value });
+
 
 export {
   SoftUIControllerProvider,
@@ -119,4 +125,5 @@ export {
   setOpenConfigurator,
   setDirection,
   setLayout,
+  setData
 };
