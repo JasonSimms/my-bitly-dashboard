@@ -35,16 +35,15 @@ function BuildByDevelopers() {
             <SoftBox display="flex" flexDirection="column" height="100%">
               <SoftBox pt={1} mb={0.5}>
                 <SoftTypography variant="body2" color="text" fontWeight="medium">
-                  Build by developers
+                  Customized Marketing Traffic Capture
                 </SoftTypography>
               </SoftBox>
               <SoftTypography variant="h5" fontWeight="bold" gutterBottom>
-                Soft UI Dashboard
+                My Bitly API
               </SoftTypography>
               <SoftBox mb={6}>
                 <SoftTypography variant="body2" color="text">
-                  From colors, cards, typography to complex elements, you will find the full
-                  documentation.
+                 Does github show repo visit count?  Better to know who , when , and how the visitors came to see it!
                 </SoftTypography>
               </SoftBox>
               <SoftTypography
@@ -71,8 +70,8 @@ function BuildByDevelopers() {
                   },
                 }}
               >
-                Read More
-                <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                {/* Read More
+                <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon> */}
               </SoftTypography>
             </SoftBox>
           </Grid>

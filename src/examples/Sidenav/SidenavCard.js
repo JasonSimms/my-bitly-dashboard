@@ -48,7 +48,7 @@ function SidenavCard() {
           </SoftBox>
           <SoftButton
             component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/soft-ui-dashboard/"
+            href="https://github.com/JasonSimms/my-bitly"
             target="_blank"
             rel="noreferrer"
             size="small"

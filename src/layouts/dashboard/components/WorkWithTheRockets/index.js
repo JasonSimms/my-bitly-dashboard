@@ -23,6 +23,7 @@ import SoftTypography from "components/SoftTypography";
 
 // Images
 import ivancik from "assets/images/ivancik.jpg";
+import { IconButton } from "@mui/material";
 
 function WorkWithTheRockets() {
   return (
@@ -46,13 +47,12 @@ function WorkWithTheRockets() {
         >
           <SoftBox mb={3} pt={1}>
             <SoftTypography variant="h5" color="white" fontWeight="bold">
-              Work with the rockets
+              How it works
             </SoftTypography>
           </SoftBox>
           <SoftBox mb={2}>
             <SoftTypography variant="body2" color="white">
-              Wealth creation is an evolutionarily recent positive-sum game. It is all about who
-              take the opportunity first.
+              Simply provide a URL and my Bitly API will do the rest. Paste your shortened link on resumes, websites, qr codes, and more!
             </SoftTypography>
           </SoftBox>
           <SoftTypography
@@ -79,8 +79,12 @@ function WorkWithTheRockets() {
               },
             }}
           >
-            Read More
+             <IconButton onClick={()=>console.log('Add more infor here!')}> 
+            <SoftTypography variant="body2" color="white">
+            Read More?
             <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            </SoftTypography>
+            </IconButton>
           </SoftTypography>
         </SoftBox>
       </SoftBox>

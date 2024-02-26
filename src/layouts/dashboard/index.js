@@ -54,32 +54,32 @@ function Dashboard() {
           <Grid container spacing={3}>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "today's money" }}
-                count="$53,000"
+                title={{ text: "today's clicks" }}
+                count="25"
                 percentage={{ color: "success", text: "+55%" }}
                 icon={{ color: "info", component: "paid" }}
               />
             </Grid>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "today's users" }}
-                count="2,300"
+                title={{ text: "today's visitors" }}
+                count="5"
                 percentage={{ color: "success", text: "+3%" }}
                 icon={{ color: "info", component: "public" }}
               />
             </Grid>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "new clients" }}
-                count="+3,462"
+                title={{ text: "new links" }}
+                count="13"
                 percentage={{ color: "error", text: "-2%" }}
                 icon={{ color: "info", component: "emoji_events" }}
               />
             </Grid>
             <Grid item xs={12} sm={6} xl={3}>
               <MiniStatisticsCard
-                title={{ text: "sales" }}
-                count="$103,430"
+                title={{ text: "new users" }}
+                count="37"
                 percentage={{ color: "success", text: "+5%" }}
                 icon={{
                   color: "info",
@@ -139,9 +139,9 @@ function Dashboard() {
           <Grid item xs={12} md={6} lg={8}>
             <Projects />
           </Grid>
-          <Grid item xs={12} md={6} lg={4}>
+          {/* <Grid item xs={12} md={6} lg={4}>
             <OrderOverview />
-          </Grid>
+          </Grid> */}
         </Grid>
       </SoftBox>
       <Footer />
